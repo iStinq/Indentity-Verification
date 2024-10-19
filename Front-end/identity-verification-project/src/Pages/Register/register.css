@@ -1,0 +1,167 @@
+body {
+    background-color: #F3F4F6;
+}
+
+.register-container {
+    background-color: white;
+    border-radius: 4px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 75%;
+    height: 90%;
+    overflow: hidden;
+}
+
+.register-top-right-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+}
+
+.register-top-right-container p {
+    font-size: 10px;
+    margin-right: 10px;
+}
+
+.register-top-right-container button {
+    margin: 10px 5px;
+    padding: 8px 30px;
+    border-radius: 7px;
+    border: none;
+    background-color: #EF4444;
+    color: white;
+    letter-spacing: 1px;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.register-form {
+    position: absolute;
+    top: 8%;
+    right: 0;
+    width: 50%;
+}
+
+.register-form-header {
+    text-align: center;
+}
+
+.register-form-header p:first-of-type {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.register-form-header p:last-of-type {
+    font-size: 10px;
+    margin-top: -15px;
+}
+
+.register-form-inputs {
+    margin-bottom: 15px;
+}
+
+.register-input-container {
+    padding: 5px;
+    margin-left: 20px;
+}
+
+.register-first-input, .register-second-input, .register-third-input, .register-forth-input, .register-fifth-input {
+    margin: 8px 20px;
+}
+
+.register-first-input label, .register-second-input label, .register-third-input label, .register-forth-input label, .register-fifth-input label {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.register-first-input input, .register-second-input input, .register-third-input input, .register-forth-input input {
+    width: 80%;
+    padding: 13px;
+    border: 1px solid #dfe1e5;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+    margin-top: 8px;
+    outline: none;
+}
+
+.register-first-input input:hover, .register-second-input input:hover, .register-third-input input:hover, .register-forth-input input:hover{
+    border-color: rgba(223,225,229,0);
+}
+
+.register-form-inputs button:last-of-type {
+    padding: 15px;
+    width: 80%;
+    margin-left: 6%;
+    border: none;
+    background-color: #EF4444;
+    color: white;
+    letter-spacing: 1px;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-bottom: -10px;
+}
+
+.register-container::before {
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 120%;
+    top: -80px;
+    left: -50px;
+    background-color: #DC2626;
+    transform: rotateZ(10deg);
+    box-shadow: 0 0px 4px 3px rgba(0, 0, 0, 0.1);
+}
+
+.register-wlcm {
+    z-index: 1;
+    position: absolute;
+    text-transform: uppercase;
+    color: white;
+    top: 70%;
+    left: 5%;
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+
+.register-fifth-input input:not(:last-child) {
+    width: 40%;
+    padding: 13px;
+    border: 1px solid #dfe1e5;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+    margin-top: 4px;
+    outline: none;
+}
+
+.register-fifth-input-container {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.otp-btn {
+    width: 20%;
+    height: 40px;
+    margin-left: 10px;
+    border: none;
+    background-color: #ca2323;
+    color: white;
+    letter-spacing: 1px;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.register-fifth-input-container input:hover {
+    border-color: rgba(223,225,229,0);
+}
